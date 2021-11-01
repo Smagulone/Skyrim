@@ -1,0 +1,92 @@
+/* -----Container----- */
+.container1 {
+  width: 100%;
+  min-height: 80vh;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content */
+.container1 .content {
+  width: 600px;
+  margin: 0px 5px;
+}
+
+.container1 .content h1 {
+  font-size: 4rem;
+}
+
+.container1 .content p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.container1 .content a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.container1 .content a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Image */
+.container1 .bg-image {
+  width: 600px;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.container1 .bg-image img {
+  width: 100%;
+}
+
+/**/
+.c {
+  background-color: #3F3F5E;
+}
+/**/
+.site-footer
+{
+  background-color:#26272b;
+  color:#737373; /*цвет текста*/
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.footer-links
+{
+  list-style:none /*without dots*/
+}
+
+
+
+.social-icons li
+{
+  display:inline-block; /*в один ряд айконы стоят*/
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  display:inline-block; /*айконы в круге*/
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  border-radius:100%;
+}
